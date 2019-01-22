@@ -15,7 +15,7 @@ class Boton extends Component {
         onPress: func,
     };
     getTheme() {
-        // Se definirá en el Paso 5.
+        // Paso 5:
         const { danger, info, success } = this.props;
 
         if (info) {
