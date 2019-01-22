@@ -34,7 +34,29 @@ class Boton extends Component {
     }
 
     render() {
-        // Se definirá en el Paso 6.
+        // Paso 6:
+        const theme = this.getTheme();
+        const {
+            children,
+            onPress,
+            style,
+            rounded,
+        } = this.props;
+
+        return (
+            <TouchableOpacity
+                activeOpacity={0.8}
+                style={[
+                    Base.main,
+                    theme.main,
+                    rounded ? Base.rounded : null,
+                    style,
+                ]}
+                onPress={onPress}
+            >
+                <Text style={[Base-label, theme.label]}>{children}</Text>
+            </TouchableOpacity>
+        );
     }
 };
 
