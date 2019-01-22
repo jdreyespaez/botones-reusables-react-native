@@ -16,6 +16,21 @@ class Boton extends Component {
     };
     getTheme() {
         // Se definirá en el Paso 5.
+        const { danger, info, success } = this.props;
+
+        if (info) {
+            return Info;
+        }
+
+        if (success) {
+            return Success;
+        }
+
+        if (danger) {
+            return Danger;
+        }
+
+        return Default;
     }
 
     render() {
