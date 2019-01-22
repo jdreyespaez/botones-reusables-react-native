@@ -6,8 +6,14 @@ const { array, string, object, bool, func, any } = PropTypes;
 
 class Boton extends Component {
     static propTypes = {
-        // Se definirán en el Paso 4.
-    }
+        // Paso 4.:
+        children: any,
+        danger: bool,
+        info: bool,
+        style: View.propTypes.style,
+        success: bool,
+        onPress: func,
+    };
     getTheme() {
         // Se definirá en el Paso 5.
     }
