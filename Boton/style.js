@@ -13,3 +13,5 @@ const BaseStyles = StyleSheet.create({
     borderRadius: 20,
   },
 });
+
+ // Paso 11: Definir los estilos que llamará 
