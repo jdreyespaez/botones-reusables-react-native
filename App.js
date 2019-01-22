@@ -2,6 +2,18 @@ import React from 'react';
 import { StyleSheet, Alert, View } from 'react-native';
 import Boton from '.Boton';
 
+const styles = StyleSheet.create({
+  // Paso 9: Agregando estilo a los botones
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  btn: {
+    margin: 10,
+  },
+});
+
 export default class App extends React.Component {
   
   // Paso 8:
@@ -25,14 +37,3 @@ export default class App extends React.Component {
   }
 }
 
-const styles = StyleSheet.create({
-  // Paso 9: Agregando estilo a los botones
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  btn: {
-    margin: 10,
-  },
-});
