@@ -14,4 +14,30 @@ const BaseStyles = StyleSheet.create({
   },
 });
 
- // Paso 11: Definir los estilos que llamará 
+ // Paso 11: Definir los estilos que llamará la función para cada botón
+ const Danger = StyleSheet.create({
+    main: {
+      backgroundColor: '#e74c3c',
+    },
+  });
+  
+  const Info = StyleSheet.create({
+    main: {
+      backgroundColor: '#3498db',
+    },
+  });
+  
+  const Success = StyleSheet.create({
+    main: {
+      backgroundColor: '#1abc9c',
+    },
+  });
+  
+  const Default = StyleSheet.create({
+    main: {
+      backgroundColor: 'rgba(0 ,0 ,0, 0)',
+    },
+    label: {
+      color: '#333',
+    },
+  });
