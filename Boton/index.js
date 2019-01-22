@@ -1,8 +1,9 @@
-import React, { Component, PropTypes } from 'react'; 
+import React, { Component } from 'react'; 
 import { Text, TouchableOpacity, View, } from 'react-native'; 
-import Base, { Default, Danger, Info, Success } from './styles';
+import Base, { Default, Danger, Info, Success } from './style';
+import PropTypes from 'prop-types';
 
-const { array, string, object, bool, func, any } = PropTypes;
+// const { array, string, object, bool, func, any } = PropTypes;
 
 class Boton extends Component {
     static propTypes = {
@@ -10,7 +11,7 @@ class Boton extends Component {
         children: any,
         danger: bool,
         info: bool,
-        style: View.propTypes.style,
+        style: ViewpropTypes.style,
         success: bool,
         onPress: func,
     };
