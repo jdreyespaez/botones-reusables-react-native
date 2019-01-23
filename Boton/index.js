@@ -16,7 +16,7 @@ class Boton extends Component {
         onPress: func,
     };
     getTheme() {
-        // Paso 5:
+        // Paso 5: La función que revisa las props y devuelve los estilos correspondientes
         const { danger, info, success } = this.props;
 
         if (info) {
