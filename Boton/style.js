@@ -15,7 +15,8 @@ const BaseStyles = StyleSheet.create({
   },
 });
 
- // Paso 11: Definir los estilos que llamará la función para cada botón
+ // Paso 11: Definir los estilos que llamará la función para cada botón.
+ // Se definirán objetos para cada plantilla (theme), sólo cambiará el color.
  const Danger = StyleSheet.create({
     main: {
       backgroundColor: '#e74c3c',
