@@ -3,17 +3,17 @@ import React from 'react';
 import { StyleSheet, Alert, View } from 'react-native';
 import Boton from './Boton';
 
-// Paso 8:
+// Paso 8: Un componente sin estado que muestra el mensaje según el tipo de botón
 function onPressBtn() {
-  Alert.alert('Alert', 'You clicked this Boton!');
+  Alert.alert('Alerta', '¡Has hecho tap en el botón!');
 }
 
 const MainApp  = () => (
   <View style={styles.container}>
-    <Boton style={styles.btn}> My first Boton </Boton>
-    <Boton success style={styles.btn}> Success Boton </Boton>
-    <Boton info style={styles.btn}> Info Boton </Boton>
-    <Boton danger rounded style={styles.btn} onPress={onPressBtn}> Rounded Boton </Boton>
+    <Boton style={styles.btn}> Botón estándar </Boton>
+    <Boton success style={styles.btn}> Botón de éxito </Boton>
+    <Boton info style={styles.btn}> Botón de información </Boton>
+    <Boton danger rounded style={styles.btn} onPress={onPressBtn}> Botón redondo de Emergencia </Boton>
   </View>
 );
 
