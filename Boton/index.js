@@ -7,7 +7,7 @@ const { array, string, object, bool, func, any } = PropTypes;
 
 class Boton extends Component {
     static propTypes = {
-        // Paso 4.:
+        // Paso 4: Definición de las propiedades del Botón y la callback function para onPress
         children: any,
         danger: bool,
         info: bool,
