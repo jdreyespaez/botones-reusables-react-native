@@ -35,7 +35,8 @@ class Boton extends Component {
     }
 
     render() {
-        // Paso 6:
+        // Paso 6: Con la función tomamos los estilos de las props y se aplican a
+        // TouchableOpacity, además vamos a renderizar un label personalizado
         const theme = this.getTheme();
         const {
             children,
