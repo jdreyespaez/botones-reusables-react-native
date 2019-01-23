@@ -1,4 +1,5 @@
-// Paso 10: Declarando los estilos del botón, primero los queserán la Base.
+// Paso 10: Declarando los estilos del botón, primero los que serán la Base.
+// Estos serán heredados en cada instancia y afectan a todos.
 import { StyleSheet } from 'react-native';
 
 const BaseStyles = StyleSheet.create({
