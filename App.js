@@ -18,7 +18,7 @@ const MainApp  = () => (
 );
 
 const styles = StyleSheet.create({
-  // Paso 9: Agregando estilo a los botones
+  // Paso 9: Agregando estilo básico para mostrar los botones en App.js
   container: {
     flex: 1,
     alignItems: 'center',
@@ -30,12 +30,3 @@ const styles = StyleSheet.create({
 });
 
 export default MainApp;
-
-// export default class App extends React.Component {  
-//   render() {
-//     return (
-
-//     );
-//   }
-// }
-
