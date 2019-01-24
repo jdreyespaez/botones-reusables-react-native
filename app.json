@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "botones-reusables",
-    "slug": "botones-reusables",
+    "name": "Botones reusables en React Native",
+    "slug": "botones-reusables-react-native",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": [
@@ -24,6 +24,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "Una forma de crear 3 botones personalizados y listos para reusar.",
+    "githubUrl": "https://github.com/jdreyespaez/botones-reusables-react-native"
   }
 }
