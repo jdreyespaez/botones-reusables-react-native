@@ -1,7 +1,10 @@
 import React, { Component } from 'react'; 
-import { Text, TouchableOpacity, View, ViewPropTypes } from 'react-native'; 
+import { Text, TouchableOpacity, ViewPropTypes } from 'react-native'; 
 import Base, { Default, Danger, Info, Success } from './style';
 import PropTypes from 'prop-types';
+
+import Emoji from 'react-native-emoji';
+
 
 const { array, string, object, bool, func, any } = PropTypes;
 
@@ -56,7 +59,10 @@ class Boton extends Component {
                 ]}
                 onPress={onPress}
             >
-                <Text style={[Base.label, theme.label]}>{children}</Text>
+                <Text style={[Base.label, theme.label]}>
+                    <Emoji name="heart_eyes" style={{fontSize: 20}} />
+                    {children}
+                    </Text>
             </TouchableOpacity>
         );
     }
